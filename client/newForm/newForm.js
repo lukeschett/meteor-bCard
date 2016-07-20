@@ -13,6 +13,7 @@ Template.newForm.events({
 		Session.set('firstName', firstName);
 		Session.set('lastName', lastName);
 		Session.set('quote', quote);
+		Session.set('gender', gender);
 		Session.set('githubLink', githubLink);
 		Router.go(`/${firstName}`);
 
